@@ -1,0 +1,15 @@
+.footer-container {
+  background-color: rgb(10, 10, 66);
+  height: 55px;
+  width: 1197px;
+  border-style: solid;
+  margin-left: 56px;
+}
+
+.footer-text {
+  color: rgb(209, 218, 219);
+  width: 1194px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 12px
+}

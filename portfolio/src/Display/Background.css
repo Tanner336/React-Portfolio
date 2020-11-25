@@ -1,0 +1,17 @@
+.background-container {
+  margin: 0px;
+  margin-top: -2%;
+  background-image: url(./mountain.png);
+  background-repeat: no-repeat;
+  background-size: 943px 504px;
+  height: 500px;
+  width: 949px;
+  border-style: solid;
+}
+
+
+.background-text {
+  text-align: center;
+  margin-top: 14%;
+  margin-bottom: 30%;
+}

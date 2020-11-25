@@ -8,13 +8,13 @@ import Resume from "./Resume/Resume";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Background from "./Display/Background"
 
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Display />
       <Footer />
     </div>
   );
