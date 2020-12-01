@@ -8,7 +8,6 @@ import {
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import Display from '../Display/Display';
 import Projects from '../Projects/Projects';
-import Contact from '../Contact/Contact';
 
 class BootstrapNavbar extends React.Component {
 
@@ -24,7 +23,6 @@ class BootstrapNavbar extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
@@ -36,9 +34,6 @@ class BootstrapNavbar extends React.Component {
                 </Route>
                 <Route path="/projects">
                   <Projects />
-                </Route>
-                <Route path="/contact">
-                  <Contact />
                 </Route>
               </Switch>
             </Router>

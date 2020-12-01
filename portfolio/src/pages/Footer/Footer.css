@@ -1,9 +1,8 @@
 .footer-container {
   background-color: rgb(10, 10, 66);
   height: 55px;
-  width: 1197px;
+  width: 100%;
   border-style: solid;
-  margin-left: 56px;
 }
 
 .footer-text {
@@ -12,4 +11,22 @@
   text-align: center;
   font-weight: bold;
   margin-top: 12px
+}
+
+.githubpic {
+  height: 10%;
+  width: 7%;
+  margin-left: 40px;
+}
+
+.linkedInpic {
+  height: 10%;
+  width: 2%;
+  margin-left: 40px;
+}
+
+.gmailpic {
+  height: 10%;
+  width: 3%;
+  margin-left: 40px;
 }

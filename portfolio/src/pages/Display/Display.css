@@ -1,10 +1,10 @@
 .pic-container {
-  margin-top: -2%;
-  margin-left: -5%;
   background-color: rgb(10, 10, 66);
-  height: 500px;
-  width: 248px;
+  height: 550px;
+  width: 16%;
   border-style: solid;
+  float: left;
+  margin-top: -24px;
 }
 
 .display-text {
