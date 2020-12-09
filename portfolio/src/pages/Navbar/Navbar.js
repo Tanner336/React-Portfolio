@@ -3,9 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useParams,
 } from "react-router-dom";
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import Display from '../Display/Display';
 import Projects from '../Projects/Projects';
 
@@ -18,10 +17,11 @@ class BootstrapNavbar extends React.Component {
           <div className="col-md-12">
             <Router>
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                <Navbar.Brand href="#home">Tanner Cook Portfolio</Navbar.Brand>
+                <Navbar.Brand href="/">Tanner Cook Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
+                    <Nav.Link href="/"></Nav.Link>
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
                   </Nav>
@@ -29,6 +29,9 @@ class BootstrapNavbar extends React.Component {
               </Navbar>
               <br />
               <Switch>
+                <Route exact path="/">
+                  <Display />
+                </Route>
                 <Route exact path="/">
                   <Display />
                 </Route>
